@@ -14,6 +14,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'capybara/rspec'
+require 'rails_helper'
 #Capybara.javascript_driver = :webkit
 RSpec.configure do |config|
 	config.before(:each, type: :system) do
